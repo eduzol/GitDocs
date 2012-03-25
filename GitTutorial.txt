@@ -1,0 +1,17 @@
+
+Git Tutorial
+
+Eduardo Zola
+eduzol@gmai.com
+
+It is important to know how to use a distributed version control management system.
+
+In git's case, there are two repositories. A local repository and a Remote Repository.
+This allows user to keep modifying their documents even when they are offline.Later on, they can push their changes
+into the remote repository.This architecture makes possible to use git in several ways.For example, it is possible to use
+a centralizaed approach in which users work in their local repository and, after testing, push their changes to a common remote
+repository. Another approach is to use a public repository for every user and before changing documents pull all the 
+changes of the users into the local repository.
+
+Finally there is a hybrid approach in which there is a centralized repository that is populated from the users
+public repositories.
