@@ -35,5 +35,7 @@ Git Commands:
 	git commit file -m "commit message" 	commits contents of index into repository
 	git commit -a -m "commit message"		adds and commits everything into repository
 	
+	error handling
+	git checkout -- file		reverts file to the HEAD version. WARNING modifies working tree file
 	
 
