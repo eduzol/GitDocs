@@ -3,6 +3,7 @@ Git Tutorial
 
 Eduardo Zola
 eduzol@gmai.com
+Software engineer
 
 It is important to know how to use a distributed version control management system.
 
@@ -16,4 +17,21 @@ changes of the users into the local repository.
 Finally there is a hybrid approach in which there is a centralized repository that is populated from the users
 public repositories.
 
-Now Git also work differently from the 
+Now Git also work differently from the centralized VCS. For one thing: Git splits the notion of commit in two different
+processes: first adding a document's change to the Git index, so Git now is aware of the change, and two: commiting that change into 
+the repository.
+
+Git Commands:
+
+	git add path/to/file		adds file to index
+	git add path/dir			adds all contents of the directory to repository
+	git add .					adds current directory
+	git addd -A|-all			adds al files in the current repository
+	git add -u|--update			adds all files previusly modified. New files not included
+	git add -p					shows each individual change before adding
+	
+	
+	
+	
+	
+
