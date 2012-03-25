@@ -23,6 +23,7 @@ the repository.
 
 Git Commands:
 
+	add command:
 	git add path/to/file		adds file to index
 	git add path/dir			adds all contents of the directory to repository
 	git add .					adds current directory
@@ -30,8 +31,9 @@ Git Commands:
 	git add -u|--update			adds all files previusly modified. New files not included
 	git add -p					shows each individual change before adding
 	
-	
-	
+	commit command:
+	git commit file -m "commit message" 	commits contents of index into repository
+	git commit -a -m "commit message"		adds and commits everything into repository
 	
 	
 
