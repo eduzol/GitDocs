@@ -62,4 +62,10 @@ II. WORKING WITH A TEAM
 	adding and removing remotes:
 	git remote add remotename(origin) URL	adds a remote repository to the local repository
 	
+	retrieving remote changes (pull)
+	git pull [mame branchname]	 git pull combines merging and fetching in one command. origin by default
+	
+	
+	
+	
 
