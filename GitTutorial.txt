@@ -24,6 +24,9 @@ the repository.
 
 Git Commands:
 
+
+I.  GIT BASICS
+
 	add command:
 	git add path/to/file		adds file to index
 	git add path/dir			adds all contents of the directory to repository
@@ -47,9 +50,16 @@ Git Commands:
 	
 	delete a file
 	git rm -- filename			deletes file. Stages changes only (undo with git reset filename HEAD, git checkout --filename)
+
 	
+II. WORKING WITH A TEAM
+	Its possible to use Git in two different ways, according to the way repositrories are used: Distributed or centralized. In a 
+	distributed configuration, each user has a private repository, and a Public repository, where each user pushes their changes to. 
+	Then, each user puls changes for every other user´s repository.
+	In contrast, using a centralized repository all users push their changes into a centra repository and one user is in charge of 
+	managing those pushed changes.
 	
-	Playing around
-	
+	adding and removing remotes:
+	git remote add remotename(origin) URL	adds a remote repository to the local repository
 	
 
