@@ -41,4 +41,5 @@ Git Commands:
 	
 	remove file from index:
 	git reset file HEAD 		deletes changes from index
+	
 
