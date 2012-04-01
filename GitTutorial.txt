@@ -28,7 +28,7 @@ Git Commands:
 	git add path/to/file		adds file to index
 	git add path/dir			adds all contents of the directory to repository
 	git add .					adds current directory
-	git addd -A|-all			adds al files in the current repository
+	git add -A|-all				adds al files in the current repository
 	git add -u|--update			adds all files previusly modified. New files not included
 	git add -p					shows each individual change before adding
 	
