@@ -17,6 +17,7 @@ changes of the users into the local repository.
 Finally there is a hybrid approach in which there is a centralized repository that is populated from the users
 public repositories.
 
+
 Now Git also work differently from the centralized VCS. For one thing: Git splits the notion of commit in two different
 processes: first adding a document's change to the Git index, so Git now is aware of the change, and two: commiting that change into 
 the repository.
