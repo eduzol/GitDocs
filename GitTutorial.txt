@@ -39,4 +39,6 @@ Git Commands:
 	error handling
 	git checkout -- file		reverts file to the HEAD version. WARNING modifies working tree file
 	
+	remove file from index:
+	git reset file HEAD 		deletes changes from index
 
