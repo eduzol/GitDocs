@@ -49,4 +49,7 @@ Git Commands:
 	git rm -- filename			deletes file. Stages changes only (undo with git reset filename HEAD, git checkout --filename)
 	
 	
+	Playing around
+	
+	
 
