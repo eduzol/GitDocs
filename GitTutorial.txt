@@ -42,4 +42,11 @@ Git Commands:
 	remove file from index:
 	git reset file HEAD 		deletes changes from index
 	
+	move file to other directory
+	git mv file new/path		moves file
+	
+	delete a file
+	git rm -- filename			deletes file. Stages changes only (undo with git reset filename HEAD, git checkout --filename)
+	
+	
 
