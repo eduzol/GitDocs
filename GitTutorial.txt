@@ -65,7 +65,8 @@ II. WORKING WITH A TEAM
 	retrieving remote changes (pull)
 	git pull [mame branchname]	 git pull combines merging and fetching in one command. origin by default
 	
+	We can simplify this operation by using:
 	
-	BI66ER
+	git clone [repository url] 		This command retrieves a remote repository and initializes a project in the local repository
 	
 
