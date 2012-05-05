@@ -1,5 +1,5 @@
 
-Git Tutorial
+Git Tutorial (modified form UBuntu WOrk)
 
 Eduardo Zola
 eduzol@gmai.com
