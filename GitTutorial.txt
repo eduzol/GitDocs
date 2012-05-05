@@ -1,8 +1,8 @@
 
-Git Tutorial (modified form UBuntu WOrk)
+Git Tutorial 
 
 Eduardo Zola
-eduzol@gmai.com
+eduzol@gmail.com
 Software engineer
 
 It is important to know how to use a distributed version control management system.
@@ -63,10 +63,44 @@ II. WORKING WITH A TEAM
 	git remote add remotename(origin) URL	adds a remote repository to the local repository
 	
 	retrieving remote changes (pull)
-	git pull [mame branchname]	 git pull combines merging and fetching in one command. origin by default
+	git pull [name branchname]	 git pull combines merging and fetching in one command. origin by default
 	
 	We can simplify this operation by using:
 	
 	git clone [repository url] 		This command retrieves a remote repository and initializes a project in the local repository
-	
 
+
+TO SUM UP!
+
+	1. Configure GIT
+		generate key
+			ssh-keygen -t rsa -C "your_email@youremail.com"
+
+		add key to github		
+			add key to github (id_rsa.pub)
+		
+		test git connection	
+			ssh -T git@github.com
+
+		Setup info
+			git config --global user.name "Firstname Lastname"
+			git config --global user.email "your_email@youremail.com"
+		
+	2. clone a repository
+
+		git clone git@github.com:eduzol/GitDocs.git
+
+		
+	3. push changes
+
+		git push origin master
+
+	4. pull changes ass needed
+		
+		git pull origin master
+
+		OR
+		
+		git fetch origin
+		git merge origin/master	
+		
